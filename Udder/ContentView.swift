@@ -17,6 +17,8 @@ struct ContentView: View {
                 .fontWeight(.bold)
                 .foregroundColor(.gray)
                 .font(.system(size: 60))
+            Image("dice")
+                .frame(width: 100.0)
         }
         .padding()
         
